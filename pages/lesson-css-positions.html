@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<<<<<<< HEAD
+    <title>css positions</title>
+    <style>
+      .box1 {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        position: relative;
+        top: 40px;
+        left: 20px;
+      }
+      .box2 {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: relative;
+        top: 20px;
+        left: 10px;
+      }
+      .box3 {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(236, 84, 14);
+        /* position: absolute; */
+        top: 20px;
+        left: 10px;
+      }
+      .box4 {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(31, 204, 83);
+        /* position: absolute; */
+        top: 20px;
+        left: 10px;
+      }
+      .box5 {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(236, 14, 143);
+        /* position: fixed; */
+        top: 30px;
+        left: 30px;
+      }
+      .box6 {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(172, 204, 31);
+        /* position: fixed; */
+        top: 20px;
+        left: 10px;
+      }
+      .box7 {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(236, 14, 143);
+        position: sticky;
+        top: 0px;
+        left: 0px;
+      }
+      .box8 {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(172, 204, 31);
+        position: sticky;
+        top: 20px;
+        left: 10px;
+=======
+    <title>Lesson - CSS Positions</title>
+    <style>
+      .box1 {
+        background-color: blue;
+        width: 200px;
+        height: 200px;
+        /* position: static; */
+
+        /* position: relative; */
+        /* top, right, bottom, left  */
+        /* top: 50px;
+        left: 50px; */
+
+        /* position: fixed;
+        top: 0;
+        right: 0; */
+
+        position: sticky;
+        top: 0;
+        left: 0;
+      }
+      .box2 {
+        background-color: aqua;
+        width: 50px;
+        height: 50px;
+
+        /* position: relative;
+        top: 20px;
+        left: 20px; */
+
+        position: absolute;
+        right: 0;
+        bottom: 0;
+>>>>>>> 8b4d2d4d734c55fc15d9918ce873d2d46eeb16fd
+      }
+    </style>
+  </head>
+  <body>
+<<<<<<< HEAD
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium
+      temporibus, quae pariatur assumenda repellat reiciendis, molestias
+      doloremque autem minima sit excepturi consequatur ipsum dignissimos ipsa
+      maxime ratione voluptatibus quasi.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium
+      temporibus, quae pariatur assumenda repellat reiciendis, molestias
+      doloremque autem minima sit excepturi consequatur ipsum dignissimos ipsa
+      maxime ratione voluptatibus quasi.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium
+      temporibus, quae pariatur assumenda repellat reiciendis, molestias
+      doloremque autem minima sit excepturi consequatur ipsum dignissimos ipsa
+      maxime ratione voluptatibus quasi.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium
+      temporibus, quae pariatur assumenda repellat reiciendis, molestias
+      doloremque autem minima sit excepturi consequatur ipsum dignissimos ipsa
+      maxime ratione voluptatibus quasi.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium
+      temporibus, quae pariatur assumenda repellat reiciendis, molestias
+      doloremque autem minima sit excepturi consequatur ipsum dignissimos ipsa
+      maxime ratione voluptatibus quasi.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium
+      temporibus, quae pariatur assumenda repellat reiciendis, molestias
+      doloremque autem minima sit excepturi consequatur ipsum dignissimos ipsa
+      maxime ratione voluptatibus quasi.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium
+      temporibus, quae pariatur assumenda repellat reiciendis, molestias
+      doloremque autem minima sit excepturi consequatur ipsum dignissimos ipsa
+      maxime ratione voluptatibus quasi.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic accusantium
+      temporibus, quae pariatur assumenda repellat reiciendis, molestias
+      doloremque autem minima sit excepturi consequatur ipsum dignissimos ipsa
+      maxime ratione voluptatibus quasi.
+    </p>
+    =====01.static=====
+    <br /><br />
+
+    ====02.relative=====
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <br /><br />
+
+    ====03.absolute=====
+    <div class="box3">
+      <div class="box4"></div>
+    </div>
+    <br /><br />
+
+    ====04.fixed=====
+    <div class="box5">
+      <div class="box6"></div>
+    </div>
+
+    =====05.sticky=====
+    <div class="box7"></div>
+    <div class="box8"></div>
+    <br /><br />
+    <p >
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate cum,
+      magnam aut inventore eos illum iusto non officiis necessitatibus. Sed
+      repudiandae exercitationem vel quisquam temporibus ducimus. Eligendi,
+      nobis inventore earum alias eos vel! Excepturi, maiores! Inventore aliquid
+      eaque repudiandae, mollitia pariatur nesciunt ullam voluptatem sit
+      impedit. Dicta cupiditate at pariatur? Deleniti reprehenderit officia
+      possimus ipsum beatae accusamus consectetur! Asperiores ipsam dolorum
+      praesentium voluptas, adipisci suscipit! Inventore perspiciatis maxime
+      sequi earum veniam esse iste adipisci eaque dolores eum magnam odio
+      sapiente quae, debitis obcaecati accusantium ad enim ipsam nulla quo.
+      Atque, illum! Exercitationem sed in sint cumque itaque iusto consequatur
+      culpa et repellat at nihil, iste cum ipsa quasi vel inventore. Sunt, nisi
+      esse quisquam amet laborum quos quaerat eos, fugiat veniam sed rem in.
+      Modi corrupti libero nihil deleniti, blanditiis culpa facere laboriosam
+      adipisci aut cupiditate unde temporibus harum! Laboriosam sunt culpa eaque
+      placeat quos cum saepe provident? Tempore, tenetur odio? Nulla omnis
+      commodi cupiditate, ipsam veniam laboriosam nam. Dignissimos error autem
+      doloremque in non ipsa laboriosam, neque hic, iusto impedit saepe nobis
+      magni illo iure facere eius quod asperiores cum unde? Esse accusantium
+      tenetur repellat dolor ab, pariatur earum est corporis fugiat consectetur
+      odit voluptatum nobis sit eveniet ex.
+    </p>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate cum,
+        magnam aut inventore eos illum iusto non officiis necessitatibus. Sed
+        repudiandae exercitationem vel quisquam temporibus ducimus. Eligendi,
+        nobis inventore earum alias eos vel! Excepturi, maiores! Inventore aliquid
+        eaque repudiandae, mollitia pariatur nesciunt ullam voluptatem sit
+        impedit. Dicta cupiditate at pariatur? Deleniti reprehenderit officia
+        possimus ipsum beatae accusamus consectetur! Asperiores ipsam dolorum
+        praesentium voluptas, adipisci suscipit! Inventore perspiciatis maxime
+        sequi earum veniam esse iste adipisci eaque dolores eum magnam odio
+        sapiente quae, debitis obcaecati accusantium ad enim ipsam nulla quo.
+        Atque, illum! Exercitationem sed in sint cumque itaque iusto consequatur
+        culpa et repellat at nihil, iste cum ipsa quasi vel inventore. Sunt, nisi
+        esse quisquam amet laborum quos quaerat eos, fugiat veniam sed rem in.
+        Modi corrupti libero nihil deleniti, blanditiis culpa facere laboriosam
+        adipisci aut cupiditate unde temporibus harum! Laboriosam sunt culpa eaque
+        placeat quos cum saepe provident? Tempore, tenetur odio? Nulla omnis
+        commodi cupiditate, ipsam veniam laboriosam nam. Dignissimos error autem
+        doloremque in non ipsa laboriosam, neque hic, iusto impedit saepe nobis
+        magni illo iure facere eius quod asperiores cum unde? Esse accusantium
+        tenetur repellat dolor ab, pariatur earum est corporis fugiat consectetur
+        odit voluptatum nobis sit eveniet ex.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate cum,
+        magnam aut inventore eos illum iusto non officiis necessitatibus. Sed
+        repudiandae exercitationem vel quisquam temporibus ducimus. Eligendi,
+        nobis inventore earum alias eos vel! Excepturi, maiores! Inventore aliquid
+        eaque repudiandae, mollitia pariatur nesciunt ullam voluptatem sit
+        impedit. Dicta cupiditate at pariatur? Deleniti reprehenderit officia
+        possimus ipsum beatae accusamus consectetur! Asperiores ipsam dolorum
+        praesentium voluptas, adipisci suscipit! Inventore perspiciatis maxime
+        sequi earum veniam esse iste adipisci eaque dolores eum magnam odio
+        sapiente quae, debitis obcaecati accusantium ad enim ipsam nulla quo.
+        Atque, illum! Exercitationem sed in sint cumque itaque iusto consequatur
+        culpa et repellat at nihil, iste cum ipsa quasi vel inventore. Sunt, nisi
+        esse quisquam amet laborum quos quaerat eos, fugiat veniam sed rem in.
+        Modi corrupti libero nihil deleniti, blanditiis culpa facere laboriosam
+        adipisci aut cupiditate unde temporibus harum! Laboriosam sunt culpa eaque
+        placeat quos cum saepe provident? Tempore, tenetur odio? Nulla omnis
+        commodi cupiditate, ipsam veniam laboriosam nam. Dignissimos error autem
+        doloremque in non ipsa laboriosam, neque hic, iusto impedit saepe nobis
+        magni illo iure facere eius quod asperiores cum unde? Esse accusantium
+        tenetur repellat dolor ab, pariatur earum est corporis fugiat consectetur
+        odit voluptatum nobis sit eveniet ex.
+      </p>
+=======
+    <!-- ===== 1. static =====
+    <p>
+      Default positioning for all elements. Elements are positioned according to
+      the normal flow of the document.
+    </p>
+    <br /> -->
+
+    <!-- ===== 2. relative =====
+    <p>Elements are positioned relative to their normal position.</p> -->
+
+    <!-- ====== 3. absolute ======
+    <p>
+      Elements are positioned relative to their nearest positioned parent (a
+      parent with any position other than static). If no such parent exists,
+      they are positioned relative to the initial containing block (usually the
+      viewport).
+    </p> -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+    <div class="box1">
+      <div class="box2"></div>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+      laudantium ipsam reprehenderit minus unde incidunt ipsa cupiditate
+      quisquam vero aperiam omnis consequatur, sed sapiente, iure perferendis
+      repudiandae similique soluta doloremque ex inventore obcaecati
+      dignissimos. Velit exercitationem tempora vero eius hic perferendis quis
+      voluptatibus, reiciendis voluptatem rerum, quaerat sequi alias maiores!
+    </p>
+>>>>>>> 8b4d2d4d734c55fc15d9918ce873d2d46eeb16fd
+  </body>
+</html>

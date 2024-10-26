@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lesson-transition</title>
+    <style>
+      #btn {
+        background-color: rgb(253, 253, 253);
+        color: black;
+        border: 1px solid black;
+        padding: 12px 36px;
+        border-radius: 20px;
+      }
+
+      #btn:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+
+        /* transition-property: background-color, color;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0.05s; */
+
+        transition: background-color 0.5s ease-in-out 0.05s,
+          color 0.5s ease-in-out 0.05s;
+      }
+
+      .image-container {
+        width: 200px;
+        height: 200px;
+        margin: 50px;
+      }
+
+      .image {
+        width: 100%;
+        transition: transform 1s ease-in-out 0.05s;
+      }
+      .image-container:hover img {
+        transform: scale(1.2) rotate(360deg);
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btn">Add to cart</button>
+    <br />
+    ==========================
+    <br />
+
+    <div class="image-container">
+      <img
+        class="image"
+        src="E:\Internet-Technologies-B70\assets\images\WhatsApp Image 2024-07-12 at 12.07.21_c1259a6c.jpg"
+        alt=""
+      />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      body {
+        margin: 0;
+      }
+      header {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10px;
+        height: 40px;
+      }
+      header ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        justify-self: flex-end;
+        margin-right: 25px;
+      }
+
+      header ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+      header ul i {
+        font-size: 0px;
+        display: none;
+        color: white;
+      }
+      img {
+        height: 45px;
+        width: 45px;
+        border-radius: 60%;
+        margin-right: 10px;
+      }
+      @media screen and (max-width: 575px) {
+        h4 {
+          font-size: 0px;
+        }
+        header ul li a {
+          font-size: 0px;
+        }
+        img {
+          height: 40px;
+          width: 40px;
+          border-radius: 50%;
+        }
+        header ul i {
+          font-size: 20px;
+          color: white;
+        }
+        .burger {
+          display: block;
+        }
+        .menu-panel.active {
+          right: 0;
+        }
+      }
+      .menu-panel {
+        background-color: rgb(32, 32, 32);
+        width: 150px;
+        height: 100%;
+        position: fixed;
+        top: 11%;
+        right: -100%;
+        transition: right 0.4s ease;
+      }
+      .menu-panel ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      .menu-panel ul {
+        list-style: none;
+      }
+      /* .left {
+        background-color: rgb(162, 191, 247);
+        width: 50vw;
+        height: 68vh;
+        padding: 70px;
+      }
+      .right {
+        background-color: rgb(162, 191, 247);
+        width: 50vw;
+        height: 90vh;
+      }
+      main {
+        display: flex;
+      }
+      .right img {
+        width: 28vw;
+        height: 60vh;
+        border-radius: 100%;
+        padding: 70px;
+      }
+      .icon {
+        display: flex;
+        justify-content: center;
+        & img {
+          margin-left: 20px;
+        }
+        padding-top: 20px;
+      }
+      button {
+        background-color: rgb(0, 216, 216);
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+      }
+      button:hover {
+        background-color: rgb(46, 44, 44);
+        color: rgb(241, 248, 248);
+      }
+      .logoimg {
+        width: 50px;
+        height: 50px;
+        border-radius: 20%;
+        margin-right: 10px;
+      } */
+    </style>
+  </head>
+  <body>
+    <div>
+      <header>
+        <section class="logo">
+          <img
+            class="logoimg"
+            src="E:\Internet-Technologies-B70\assets\images\WhatsApp Image 2024-07-12 at 12.07.21_c1259a6c.jpg"
+            alt="logo"
+          />
+          <h4>Kavindu Tharaka</h4>
+        </section>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#Services">About</a></li>
+            <li><a href="#Contacts">Contacts</a></li>
+            <li><a href="#About-us">services</a></li>
+            <i class="fa-solid fa-bars" id="burger"> </i>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!-- <main>
+      <section class="left">
+        <h1>Hey There...!</h1>
+        <h3>Welcome my portfolio</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+          nam laborum repellendus illum facere dolorum sint culpa, sunt non!
+          Assumenda a ratione sapiente quae necessitatibus tenetur possimus
+          natus est excepturi. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Beatae cupiditate veniam eos voluptates quis fuga
+          tempore, deleniti porro corrupti obcaecati ut, quo recusandae? Quod
+          neque quisquam minus quidem ducimus est? lo
+        </p>
+        <button onclick="alert('no info')">more info</button>
+        <div class="icon">
+          <img
+            src="E:\Internet-Technologies-B70\assets\images\icons8-facebook-24.png"
+            alt=""
+          />
+          <img
+            src="E:\Internet-Technologies-B70\assets\images\icons8-facebook-messenger-24.png"
+            alt=""
+          />
+          <img
+            src="E:\Internet-Technologies-B70\assets\images\icons8-instagram-24.png"
+            alt=""
+          />
+          <img
+            src="E:\Internet-Technologies-B70\assets\images\icons8-twitter-24.png"
+            alt=""
+          />
+          <img
+            src="E:\Internet-Technologies-B70\assets\images\icons8-whatsapp-24.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="right">
+        <img
+          src="E:\Internet-Technologies-B70\assets\images\WhatsApp Image 2024-07-12 at 12.07.21_c1259a6c.jpg"
+          alt=""
+        />
+      </section>
+    </main> -->
+
+    <section>
+      <div class="menu-panel" id="menu-panel-id">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#Services">About</a></li>
+          <li><a href="#Contacts">Contacts</a></li>
+          <li><a href="#About-us">services</a></li>
+        </ul>
+      </div>
+
+      <script>
+        const burger = document.getElementById("burger");
+        const menuPanel = document.getElementById("menu-panel-id");
+        const closeBtn = document.getElementById("btn-close");
+
+        burger.addEventListener("click", () => {
+          menuPanel.classList.toggle("active");
+        });
+
+        closeBtn.addEventListener("click", () => {
+          menuPanel.classList.remove("active");
+        });
+      </script>
+    </section>
+  </body>
+</html>
